@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  
+  <!-- Les bases d'une page HTML
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Brief Charte</title>
+  <meta name="description" content="Notre Charte de Promo">
+  <meta name="author" content="Promo Simplon La Poste">
+
+  <!-- Métadonnées spécifique Mobiles
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Liaisons des Polices
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"> -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- Liaisons des fichiers CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/skeleton.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- Liaison du Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" href="./images/favicon.png" />
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <p class="promo">Promo Up2Dev - DDD</p> 
+    </div>
+  </header>
+
+
+  <!-- Structure principale de la page
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <main class="container">
+
+    <section>
+      <div class="row">
+        <div class="column">
+          <div class="titre">
+            <h1>Notre charte de promo </h1>
+            <p>Ces règles vont devoir s’ajouter à la charte que nous avons signés.<br> 
+            Ces règles sont evidement officieuses mais elles nous unissents ! <br> Prenez plaisir à les découvrir ! 🔥</p>
+          </div>
+          <div class="btnRed">
+            <a href="https://github.com" target="_blank" class="font">Accès Github</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br>
+
+    <section>
+      <div class="tiroir tiroir1">
+        <h2>Réussite collective</h2>
+        <div>
+          <!-- donner une classe display none -->
+          <ul class="liste liste1"> 
+            <li>Si j’ai fini un exercice, j’aide les autres</li>
+            <li>En cas de difficultés, je n'hésite pas à solliciter le groupe, à condition d'avoir suffisamment recherché en autonomie, si je demande de l'aide je m'engage à approffondir le sujet par moi même.
+            </li>
+            <li>Je partage mes sources, trucs et astuces</li>
+          </ul>
+        </div>
+      </div>
+
+      
+      <div class="tiroir tiroir2">
+        <h2>Vivre ensemble</h2>
+        <div>
+            <!-- donner une classe display none -->
+          <ul class="liste liste2">
+            <li>Respect</li>
+            <li>Partage</li>
+            <li>Bienveillance</li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="tiroir tiroir3">
+        <h2>Pour le fun</h2>
+          <!-- donner une classe display none -->
+        <div>
+          <ul class="liste liste3">
+            <li>Retard = croissants poour toute la Promo 😋</li>
+            <li>Apéro collectif le jeudi soir 😆</li>
+            <li>Google est ton ami 😁</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    
+    <section>
+      <div>
+        <p>Grâce à ce règlement on obtient le code suivant :</p> 
+      </div>
+      
+      <pre><code style="overflow: auto;">
+  let compétencesDePromo = [];
+  let humeurPromo = 'Au top';
+
+  if('règles comprises' == true && 'règles appliquées' == true) {
+      compétencesDePromo.push(new Compétence());
+  } else {
+      humeurPromo = 'Pas top';
+  }
+      </code></pre>
+    </section>
+
+    <!-- button class="Random" -->
+    <button id="randomBtn" class="container2 btnRed font">Random Apprenant</button>
+  
+  </main>
+  <!-- Fin du document (fermeture des balises)
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="script.js"></script>
+</body>
+
+</html>
